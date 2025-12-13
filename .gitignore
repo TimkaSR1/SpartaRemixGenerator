@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Environment files
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated output
+output/
+temp/
+*.sfk
+
+# MoviePy temp files that sometimes end up in repo root
+*TEMP_MPY_wvf_snd.mp4
+
+# Built executables / packaging artifacts
+build/sparta_gui/
+dist/
+
+# Large media files (keep only the ones needed at runtime)
+*.mp4
+*.wav
+!base.wav
+!build/gun/GUN.wav
+
+# Optional downloads / archives
+rubberband-windows.zip
+
+# Visual Studio / C# build artifacts
+PitchCorrector297_V1.0/**/.vs/
+PitchCorrector297_V1.0/**/obj/
+
+# PitchCorrector297 restored packages (can be re-restored, no need to commit)
+PitchCorrector297_V1.0/packages/
